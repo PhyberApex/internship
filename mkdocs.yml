@@ -1,0 +1,13 @@
+site_name: "Internship"
+theme:
+  name: material
+plugins:
+  - search
+  - print-site
+markdown_extensions:
+  - def_list
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences
