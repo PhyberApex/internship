@@ -1073,18 +1073,21 @@ Helpful search terms:
 Your task is to separate the password generation logic into its own component using the Strategy pattern. This will allow for different generation algorithms.
 
 What you'll learn:
+
 - Strategy pattern implementation
 - Dependency injection
 - Interface segregation
 - Single responsibility principle
 
 What to change:
+
 1. Create a PasswordGeneratorStrategy interface
 2. Move generation logic into separate classes
 3. Implement different generation strategies
 4. Use dependency injection for flexibility
 
 Helpful search terms:
+
 - "Strategy pattern real world example"
 - "Dependency injection Java"
 - "SOLID principles explained"
@@ -1156,18 +1159,21 @@ Helpful search terms:
 Your task is to create a flexible validation system using the Composite pattern and implement a modular strength calculation approach.
 
 What you'll learn:
+
 - Composite pattern
 - Chain of responsibility
 - Open/closed principle
 - Separation of concerns
 
 What to change:
+
 1. Create separate validator classes
 2. Implement composite validator
 3. Make strength rules pluggable
 4. Use chain of responsibility for validation
 
 Helpful search terms:
+
 - "Composite pattern Java"
 - "Chain of responsibility example"
 - "Java validation framework"
@@ -1238,18 +1244,21 @@ Helpful search terms:
 Your task is to implement a proper storage system using the Repository pattern and handle persistence concerns separately from business logic.
 
 What you'll learn:
+    
 - Repository pattern
 - Data access object (DAO)
 - Separation of concerns
 - Error handling best practices
 
 What to change:
+
 1. Create a PasswordRepository interface
 2. Implement different storage strategies
 3. Add proper error handling
 4. Separate storage concerns
 
 Helpful search terms:
+
 - "Repository pattern Java"
 - "DAO vs Repository pattern"
 - "Java persistence patterns"
@@ -1316,18 +1325,21 @@ Helpful search terms:
 Your task is to create the main application class that coordinates all the components using dependency injection and proper configuration.
 
 What you'll learn:
+
 - Application architecture
 - Dependency injection
 - Configuration management
 - Component coordination
 
 What to change:
+
 1. Create the main application class
 2. Implement dependency injection
 3. Add configuration handling
 4. Connect all components
 
 Helpful search terms:
+
 - "Java application architecture"
 - "Dependency injection container"
 - "Java configuration patterns"
@@ -1899,6 +1911,7 @@ Helpful search terms:
     ```
 
 This complete solution demonstrates:
+
 - Clear separation of concerns with distinct classes and interfaces
 - Use of multiple design patterns (Builder, Strategy, Composite, Repository)
 - Proper encapsulation and immutability
